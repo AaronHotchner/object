@@ -24,11 +24,8 @@ public class Plus {
 		this.p2 = p2;
 	}
 	
-	public void key(int a) {
+	public void result(int a) {
 		answer.add((Integer) a);
-	}
-	
-	public void result() {
 		if(answer.get(answer.size() - 1) != (Integer)(this.p1 + this.p2)) {
 			if(answer.size() >= 2) {
 				for(int i = 0; i <= answer.size() - 2; i++) {

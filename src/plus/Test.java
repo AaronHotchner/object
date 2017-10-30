@@ -10,8 +10,7 @@ public class Test {
 		do {
 			System.out.println(a.getP1() + "+" + a.getP2() + "= ?");
 			int key = input.nextInt();
-			a.key(key);
-			a.result();			
+			a.result(key);			
 		}while(true);
 		
 	}
