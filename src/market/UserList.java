@@ -16,5 +16,4 @@ public class UserList {
 	public String getPassword() {
 		return this.password;
 	}
-	
 }
