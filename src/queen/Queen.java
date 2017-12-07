@@ -7,7 +7,7 @@ public class Queen {
 		num(1,9,queen);
 		display(queen);
 	}
-	/*数组代表列数，不重复*/
+
 	public static void num(int min, int max, int[] queen) {		
 		int k = 0;
 		int i = 0;
@@ -27,7 +27,7 @@ public class Queen {
 		}
 	}
 	
-	/*打印*/
+
 	public static void display(int[] queen) {
 		int k = 1;
 		for(int i = 0; i < queen.length; i++) {
